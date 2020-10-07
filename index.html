@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ToDoList Project</title>
+	<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="jquery-2.1.4.js"></script>
+	<link rel="stylesheet" type="text/css" href="todolistproject.css">
+</head>
+
+<body>
+
+
+
+	<div class="left">
+		<div>
+			<div id="label">
+				<label id="enter"> Enter your name</label> </div>
+			<input id="name" type="text" name="name" placeholder="name">
+
+			<button class="getstart">Get started</button>
+
+		</div>
+	</div>
+
+
+
+
+		<div id="sett" class="alert">
+			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+			<div class="center"><strong>Oops! Plz enter your name</strong> </div>
+		</div>
+
+
+	<div id="show">
+		<h1 id="heading"></h1>
+	</div>
+	<div id="main">
+		<div>
+			<h1 id="head">To-do list
+				<button id="toggs">+</button>
+				<button id="reset">Reset</button>
+		</div>
+		</h1>
+
+		<input id="text" type="text" name="text" placeholder="Add your to-do">
+		<ul>
+			<li> <span>X </span>Play</li>
+			<li> <span>X </span>Exercise</li>
+			<li> <span>X </span>Coding</li>
+		</ul>
+
+
+	</div>
+	<script type="text/javascript" src="todolistproject.js"></script>
+</body>
+
+</html>
